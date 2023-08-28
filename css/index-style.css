@@ -1,0 +1,89 @@
+.header-navbar{
+    height: 12vh;
+    display: flex;
+    overflow: hidden ;
+    align-items: flex-start;
+    justify-content: space-between;    
+}
+
+.header-navigation-links, .header-navigation-list{
+    display: flex;
+}
+
+.header-logo, .header-navigation-links{
+    margin-top: -20px;
+}
+
+.header-logo{
+    margin-left: 0px;
+}
+
+.header-navigation-list{
+    width: 35vw;
+    list-style: none;
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 10px;
+}
+
+.header-navigation-list-items{
+    font-size: 0.8rem;
+}
+
+.login-button{
+    width: 25px;
+    height: 25px;
+    color: white;
+    border-color: white;
+    border-radius: 25px;
+    margin-top: -5px;
+    font-size: 0.9rem;
+}
+
+.header-navigation-links{
+   margin-right: -180px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#page-hero{
+    margin-top: -50px;
+}
+
+.hero-text-area{
+    height: 70vh;
+    z-index: 99;
+}
+
+.hero-icons{
+    margin-top: -35px;
+}
+
+.sc-list{
+    margin-right: 50px;
+}
+
+.cta-button{
+    margin-left: 20px;
+}
+
+#hero-image{
+    position: absolute;
+    overflow: hidden;
+    width: 50vw;
+    height: 400px;
+    top: 10vw;
+    overflow: hidden;
+    left: 43vw;
+    z-index: 0;
+}
+
+#about{
+    margin-top: -105px;
+    padding-top: 0px;
+}
+
+.feat-text, .plan-feat, .plan-list, .plan-details{
+    text-align: center;
+}
