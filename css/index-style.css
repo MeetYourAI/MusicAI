@@ -87,3 +87,7 @@
 .feat-text, .plan-feat, .plan-list, .plan-details{
     text-align: center;
 }
+
+.img-hero{
+    width: 400px;
+}
