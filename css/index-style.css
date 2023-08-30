@@ -1,9 +1,6 @@
 .header-navbar{
     height: 12vh;
-    display: flex;
     overflow: hidden ;
-    align-items: flex-start;
-    justify-content: space-between;    
 }
 
 .header-navigation-links, .header-navigation-list{
@@ -19,25 +16,31 @@
 }
 
 .header-navigation-list{
-    width: 35vw;
+    width: 40vw;
     list-style: none;
     justify-content: space-evenly;
     display: flex;
     margin-top: 10px;
+    border: 2px solid red;
+    position: relative;
+    left: -50px;
 }
 
 .header-navigation-list-items{
-    font-size: 0.8rem;
+    font-size: 10px;
+    color: red;
 }
 
 .login-button{
-    width: 25px;
-    height: 25px;
+    width: 1.5vw;
+    height: 1.5vw;
     color: white;
     border-color: white;
     border-radius: 25px;
     margin-top: -5px;
-    font-size: 0.9rem;
+    font-size: 1.5vw;
+    position: relative;
+    left: -20px;
 }
 
 .header-navigation-links{
@@ -73,7 +76,7 @@
     overflow: hidden;
     width: 50vw;
     height: 400px;
-    top: 10vw;
+    top: 150px;
     overflow: hidden;
     left: 45vw;
     z-index: 0;
@@ -90,4 +93,13 @@
 
 .img-hero{
     width: 400px;
+}
+
+.control-bar{
+    margin-top: -40px;
+}
+
+.hero-subtitle{
+    max-width: 400px;
+    text-align: justify;
 }
